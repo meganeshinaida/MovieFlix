@@ -1,7 +1,6 @@
 import { View, Text ,Image,FlatList, ActivityIndicator} from 'react-native'
 import {images} from '@/constants/images'
 import MovieCard from '@/components/MovieCard'
-import { useRouter } from 'expo-router'
 import useFetch from '@/services/useFetch'
 import { fetchMovies } from '@/services/API'
 import { icons } from '@/constants/icons'
